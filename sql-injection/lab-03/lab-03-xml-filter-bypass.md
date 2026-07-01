@@ -5,7 +5,7 @@
 **Link:** https://portswigger.net/web-security/sql-injection
 
 ## Vulnerability
-The stock check feature sends productId and storeId in XML format to a 
+The stock check feature sends product Id and store Id in XML format to a 
 backend SQL query. The application uses a WAF that blocks obvious SQL 
 keywords like UNION SELECT in plain text.
 
